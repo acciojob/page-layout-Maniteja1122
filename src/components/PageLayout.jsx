@@ -1,8 +1,8 @@
 import React from "react"
-const PageLayout=({heading , text ,footer})=>{
+const PageLayout=({heading , children ,footer})=>{
     return (<>
     <h1>{heading}</h1>
-    <p>{text}</p>
+    <p>{children}</p>
     <p>{footer}</p>
     </>)
   }
